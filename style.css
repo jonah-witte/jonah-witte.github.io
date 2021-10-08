@@ -1,0 +1,50 @@
+body{
+  background-color: aquamarine;
+}
+h1,h2,h3{
+  text-align: center;
+}
+#wrapper{
+  width:80%;
+  margin: auto;
+  background-color:blanchedalmond;
+  box-shadow: 5px 5px;
+}
+div{
+  width:90%;
+  margin: auto;
+}
+.itembox{
+  border: 5em;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  background-color: darkblue;
+  color: goldenrod;
+  padding: 1em
+}
+.favorite{
+  border: 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px;
+  background-color: lightpink;
+  color: rebeccapurple;
+  padding: 1em
+}
+.a{
+  background-color: purple;
+  list-style-type: decimal;
+}
+.b{
+  background-color:purple;
+  list-style-type: square;
+}
+
+a{
+  color:white;
+}
+#navbar{
+  background-color:darksalmon;
+}
+footer{
+  font-style: italic;
+}
