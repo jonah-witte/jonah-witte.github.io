@@ -1,0 +1,30 @@
+#borderimg {
+  background-color: blanchedalmond;
+  color: darkcyan; 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(files/Unit6Images/borderImage.png) 30 round;
+}
+ul {
+  list-style-image: url("files/Unit6Images/arrow.png");
+}  
+html{
+  background-image: url(files/Unit6Images/Capture.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 10px;
+  background-position: center;
+}
+#heart{
+  height: 200px;
+  width: 300px;
+  border: 10px solid transparent;
+  padding: 0px;
+  border-image: url(files/Unit6Images/borderImage.png) 30 round;
+}
+#firstImage{
+  height: 100px;
+  width: 100px;
+  
+}
