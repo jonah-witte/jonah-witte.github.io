@@ -1,0 +1,118 @@
+header, nav, main, footer { display: block; } 
+* {box-sizing: border-box; }
+body { background-color: #330000;
+       font-family: Verdana, Arial, sans-serif;
+}
+#wrapper { width: 960px;
+           margin: auto;
+		   background-color: #F4E8BC;
+		   color: #330000;
+		   box-shadow: 5px 5px 5px #000000;
+}
+h1 { background-image: url(files/Unit9Mobile/Evil_Bug.png);
+       background-size: contain;
+     background-repeat: no-repeat;
+     background-color: #F4E8BC;
+	 height: 110px;
+	 font-family: Georgia, "Times New Roman", serif;
+	 font-size: 4.5em;
+     padding-left: 220px;
+	 padding-top: 20px;
+	 text-shadow: 3px 3px 3px #90745D;
+	 margin-bottom: 0;
+}
+nav { padding-top: 10px;
+      float: left;
+      width: 200px; 
+}
+nav ul { list-style-type: none; 
+       padding-left: 0;
+	 }
+nav li { padding-bottom: 5px;
+padding-left: 5px;
+       font-weight: bold;
+}
+nav li:hover { 
+       background: #90745D;
+}
+
+nav a { text-decoration: none; }
+nav a:link { color: #330000; }
+nav a:visited{ color: #90745D; }
+nav a:hover {        color:#FFFFCC;;
+               }
+
+
+main { background-color: #FFFFCC;
+          margin-left: 200px;
+          padding: 1px 20px 20px 20px;   
+		  min-height: 300px;
+}
+main img { float: right;
+              padding: 20px;
+}
+
+footer { background-color: #FFFFCC;
+       margin-left: 200px;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+
+.clear{
+  clear: both;
+}
+
+/*Add your mobile CSS rules below*/
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 1.20em;
+    border-style: solid;
+  }
+  h1 { background-image: none;
+    background-color: #F4E8BC;
+	  height: auto;
+	  font-size: 3em;
+    padding-left: 0px;
+	 text-align: center;
+  }
+  nav { 
+      float: none;
+      width: 100%; 
+      
+      text-align: center;
+      
+  }
+  nav ul { 
+       padding-left: 0;
+      
+	 }
+  nav li { 
+      padding-left: 0px;
+      border-style: solid;
+     
+  }
+  
+  #wrapper { width: 100%;
+      margin: auto;
+     
+  }
+  main { 
+      margin-left: 0px;   
+		  min-height: auto;
+      text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  main img { float: none;
+    padding: 0px;
+  }
+  footer {
+       margin-left: 0px;
+       padding: 0px;
+       text-align: center;
+  }
+}
